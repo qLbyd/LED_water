@@ -96,17 +96,17 @@ int main(void)
   {
     /* USER CODE END WHILE */
     HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_SET);  // 灯1亮
-		HAL_Delay(1000); // 延时1s
+		HAL_Delay(100); // 延时1s
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_RESET);  // 灯1灭
 	  HAL_Delay(100); // 延时1s
 		
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);  // 灯2亮
-		HAL_Delay(1000); // 延时1s
+		HAL_Delay(100); // 延时1s
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);  // 灯2灭
 	  HAL_Delay(100); // 延时1s
 		
 		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_14, GPIO_PIN_SET);  // 灯3亮
-		HAL_Delay(1000); // 延时1s
+		HAL_Delay(100); // 延时1s
 		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_14, GPIO_PIN_RESET);  // 灯3灭
 		HAL_Delay(100); // 延时1s
 
